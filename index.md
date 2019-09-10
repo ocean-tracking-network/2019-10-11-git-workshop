@@ -11,9 +11,9 @@ humandate: "September 11, 2019"    # human-readable dates for the workshop (e.g.
 humantime: "12:30 pm - 1:30 pm"    # human-readable times for the workshop (e.g., "9:00 am - 4:30 pm")
 startdate: 2019-10-11      # machine-readable start date for the workshop in YYYY-MM-DD format like 2015-01-01
 enddate: 2019-10-11        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
-instructor: ["Bruce Delo", "Alex Nunes"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
-helper: ["Jon Pye", "Angela Dini", "Ross Dickson"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["bruce.delo@dal.ca", "anunes@dal.ca, jonathan.pye@dal.ca", "Angela.Dini@dal.ca"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+instructor: ["Bruce Delo"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
+helper: ["Jon Pye", "Caitlin Bate", "Ross Dickson"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
+email: ["bruce.delo@dal.ca", "Caitlin.Bate@dal.ca", "", "jonathan.pye@dal.ca"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 collaborative_notes:             # optional: URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document
 eventbrite:        # optional: alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
 ---
@@ -194,7 +194,7 @@ Display the contact email address set in the configuration file.
 
 <hr/>
 
-{% comment %}
+<!--{% comment %}
 SURVEYS - DO NOT EDIT SURVEY LINKS
 {% endcomment %}
 <h2 id="surveys">Surveys</h2>
@@ -208,7 +208,7 @@ SURVEYS - DO NOT EDIT SURVEY LINKS
 {% elsif site.carpentry == "lc" %}
 <p><a href="{{ site.lc_pre_survey }}{{ site.github.project_title }}">Pre-workshop Survey</a></p>
 <p><a href="{{ site.lc_post_survey }}{{ site.github.project_title }}">Post-workshop Survey</a></p>
-{% endif %}
+{% endif %}-->
 
 <hr/>
 
